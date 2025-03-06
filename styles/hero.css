@@ -3,6 +3,7 @@ section.hero {
   width: auto;
   height: 95.25rem;
   position: relative;
+  overflow: hidden;
 
   & .light-blur-1 {
     position: absolute;
@@ -23,8 +24,8 @@ section.hero {
     background-color: var(--pink-low);
     top: 61.68rem; /* Posição vertical */
     left: 14.5rem; /* Posição horizontal */
-    width: 33.62rem; /* Largura da elipse */
-    height: 33.62rem; /* Altura da elipse */
+    width: 10rem; /* Largura da elipse */
+    height: 10rem; /* Altura da elipse */
     filter: blur(400px); /* Desfoque */
     opacity: 150%;
     border-radius: 50%; /* Torna o fundo em forma de elipse */
@@ -51,8 +52,8 @@ section.hero {
     background-color: var(--pink-low);
     top: 45.125rem; /* Posição vertical */
     left: 73.18rem; /* Posição horizontal */
-    width: 30.68rem; /* Largura da elipse */
-    height: 30.68rem; /* Altura da elipse */
+    width: 25rem; /* Largura da elipse */
+    height: 25rem; /* Altura da elipse */
     filter: blur(300px); /* Desfoque */
     opacity: 100%;
     border-radius: 50%; /* Torna o fundo em forma de elipse */
