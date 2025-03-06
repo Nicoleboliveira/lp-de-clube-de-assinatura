@@ -1,0 +1,16 @@
+section.kit {
+  background-color: var(--shape-background);
+  width: auto;
+  height: 99.125rem;
+  position: relative;
+
+  & h2 {
+    font: var(--title-sm);
+    color: var(--text-title);
+  }
+
+  & h4 {
+    font: var(--body-md);
+    color: var(--text-body);
+  }
+}
