@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
 :root {
   --pink-light: #c59dd2;
   --pink-base: #9547a5;

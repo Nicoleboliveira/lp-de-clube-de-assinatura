@@ -190,12 +190,12 @@ section.hero {
     img[src*="planchette"] {
       width: 5rem;
       height: 5rem;
-      margin-left: 9.62rem;
+      margin-left: 7rem;
     }
     img[src*="crystal"] {
       width: 5rem;
       height: 5rem;
-      margin-right: 9.5rem;
+      margin-right: 5rem;
     }
     & .hero2-img-2 {
       text-align: center;
