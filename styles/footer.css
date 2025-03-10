@@ -1,13 +1,12 @@
 footer {
-  background-image: url(../assets/book-trace-background.png);
+  background-image: url(../assets/images/book-trace-background.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   object-fit: cover;
   overflow: hidden;
+  background-repeat: no-repeat;
 
-  margin-top: 7rem;
-  padding-top: 6rem;
-  width: 100vw;
+  width: 98.9vw;
   height: auto;
 
   & header {
@@ -38,7 +37,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 2.25rem;
     padding-top: 2.5rem;
-
     & p {
       font: 700 1rem/140% "raleway", sans-serif;
       color: var(--text-title);
@@ -55,11 +53,13 @@ footer {
 
 @media (width >= 80em) {
   footer {
+    background-color: var(--shape-background);
     background-size: contain;
     display: inline-flex;
     justify-content: space-between;
     gap: 15rem;
     padding-block: 10rem 6.375rem;
+    overflow: hidden;
 
     & header {
       width: 16.5rem;

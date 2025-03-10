@@ -46,3 +46,11 @@
 body {
   background-color: var(--shape-bg);
 }
+.container {
+  max-width: calc(100% - 10%);
+  margin-inline: auto;
+
+  @media (width >= 80em) {
+    max-width: calc(100% - 15rem);
+  }
+}
