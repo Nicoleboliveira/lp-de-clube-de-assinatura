@@ -26,7 +26,7 @@ section.hero {
     left: 14.5rem; /* Posição horizontal */
     width: 10rem; /* Largura da elipse */
     height: 10rem; /* Altura da elipse */
-    filter: blur(400px); /* Desfoque */
+    filter: blur(150px); /* Desfoque */
     opacity: 150%;
     border-radius: 50%; /* Torna o fundo em forma de elipse */
     pointer-events: none; /* Impede que o elemento bloqueie interações com outros elementos */
@@ -54,7 +54,7 @@ section.hero {
     left: 73.18rem; /* Posição horizontal */
     width: 25rem; /* Largura da elipse */
     height: 25rem; /* Altura da elipse */
-    filter: blur(300px); /* Desfoque */
+    filter: blur(225px); /* Desfoque */
     opacity: 100%;
     border-radius: 50%; /* Torna o fundo em forma de elipse */
     pointer-events: none; /* Impede que o elemento bloqueie interações com outros elementos */

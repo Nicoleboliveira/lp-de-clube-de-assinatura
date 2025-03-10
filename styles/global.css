@@ -42,3 +42,7 @@
   --link: medium 0.875rem var(--font-family);
   --tag: bold 0.625rem var(--font-family);
 }
+
+body {
+  background-color: var(--shape-bg);
+}
